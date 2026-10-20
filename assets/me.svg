@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="406" viewBox="0 0 1000 406" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="406" viewBox="0 0 1000 406" fill="none">
 <style>
 .m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
 .s{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
@@ -60,7 +60,7 @@
 <text x="68" y="216" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.32s"><tspan fill="#c4b5fd">"aka"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"Boody"</tspan><tspan fill="#9ca3af">,</tspan></text>
 <text x="68" y="244" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.44s"><tspan fill="#c4b5fd">"builds"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4"></tspan><tspan fill="#9ca3af">[</tspan><tspan fill="#5eead4">"REST APIs", "data models", "auth", "the servers they run on"</tspan><tspan fill="#9ca3af">]</tspan><tspan fill="#5eead4"></tspan><tspan fill="#9ca3af">,</tspan></text>
 <text x="68" y="272" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.56s"><tspan fill="#c4b5fd">"story"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"a login page made me ask how auth really works. been backend since"</tspan><tspan fill="#9ca3af">,</tspan></text>
-<text x="68" y="300" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.6799999999999999s"><tspan fill="#c4b5fd">"how_i_learn"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"docs, break it, write notes in my own words, ship it in a real project"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="68" y="300" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.6799999999999999s"><tspan fill="#c4b5fd">"how_i_learn"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"read the docs, break stuff, get stuck, figure it out, ship it"</tspan><tspan fill="#9ca3af">,</tspan></text>
 <text x="68" y="328" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.8s"><tspan fill="#c4b5fd">"rules"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4"></tspan><tspan fill="#9ca3af">[</tspan><tspan fill="#5eead4">"understand it before you copy it", "no zero days"</tspan><tspan fill="#9ca3af">]</tspan><tspan fill="#5eead4"></tspan><tspan fill="#9ca3af">,</tspan></text>
 <text x="68" y="356" class="m in" font-size="15" xml:space="preserve" style="animation-delay:0.9199999999999999s"><tspan fill="#c4b5fd">"open_to"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"junior backend / full-stack roles"</tspan><tspan fill="#9ca3af"></tspan></text>
 <text x="40" y="384" class="m" font-size="15" fill="#9ca3af">}</text>

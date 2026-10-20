@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-<img src="./assets/stack.svg" width="100%" alt="Daily: Node.js, Express, MongoDB, Mongoose, JWT. Ships with: Linux VPS, Nginx, PM2, Cloudinary. Front: React, TypeScript, Vite, Tailwind. AI: Vercel AI SDK, OpenRouter, Claude API. Learning: testing, Redis, queues, Docker, system design." />
+<img src="./assets/stack.svg" width="100%" alt="Daily: Node.js, Express, MongoDB, Mongoose, JWT. Ships with: Linux VPS, Nginx, PM2, Cloudinary. Front: React, TypeScript, Vite, Tailwind. AI: AI integration, chatbots, Vercel AI SDK, Claude API, OpenRouter. Learning: testing, Redis, queues, Docker, system design." />
 
 <br/><br/>
 
@@ -44,9 +44,8 @@
 
 <img src="./assets/footer.svg" width="100%" alt="Got a backend that needs building? POST /api/v1/hire" />
 
-<a href="https://abdelrahman.tech"><img src="./assets/b-portfolio.svg" width="24%" alt="portfolio" /></a>
-<a href="https://linkedin.com/in/abdelarahman-mohamed"><img src="./assets/b-linkedin.svg" width="24%" alt="linkedin" /></a>
-<a href="mailto:abdelarahman2022@gmail.com"><img src="./assets/b-email.svg" width="24%" alt="email" /></a>
-<a href="https://leetcode.com/u/abdelarahman-leetcoder"><img src="./assets/b-leetcode.svg" width="24%" alt="leetcode" /></a>
+<a href="https://abdelrahman.tech"><img src="./assets/b-portfolio.svg" width="32%" alt="portfolio" /></a>
+<a href="https://linkedin.com/in/abdelarahman-mohamed"><img src="./assets/b-linkedin.svg" width="32%" alt="linkedin" /></a>
+<a href="mailto:abdelarahman2022@gmail.com"><img src="./assets/b-email.svg" width="32%" alt="email" /></a>
 
 </div>

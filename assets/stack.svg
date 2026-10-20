@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="412" viewBox="0 0 1000 412" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="412" viewBox="0 0 1000 412" fill="none">
 <style>
 .m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
 .s{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
@@ -99,29 +99,35 @@
 <g class="in" style="animation-delay:0.51s">
 <rect x="40" y="234" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="66" y="252" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
 <text x="104" y="252" class="m" font-size="14" fill="#d1d5db">/stack/ai</text>
-<g transform="translate(270,233)"><rect width="113.6" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<g transform="translate(270,233)"><rect width="120.8" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="60.4" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">AI integration</text></g>
+<g transform="translate(398.8,233)"><rect width="77.6" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="38.8" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">chatbots</text></g>
+<g transform="translate(484.4,233)"><rect width="113.6" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
 <text x="56.8" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">Vercel AI SDK</text></g>
-<g transform="translate(391.6,233)"><rect width="92.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
-<text x="46.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">OpenRouter</text></g>
-<g transform="translate(491.6,233)"><rect width="92.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<g transform="translate(606.0,233)"><rect width="92.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
 <text x="46.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">Claude API</text></g>
-<g transform="translate(591.6,233)"><rect width="106.39999999999999" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
-<text x="53.199999999999996" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">tool calling</text></g>
-<g transform="translate(706.0,233)"><rect width="128.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<g transform="translate(706.0,233)"><rect width="92.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="46.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">OpenRouter</text></g>
+<g transform="translate(806.0,233)"><rect width="128.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
 <text x="64.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#c4b5fd">AI-directed dev</text></g>
 </g>
 <g class="in" style="animation-delay:0.63s">
 <rect x="40" y="286" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="66" y="304" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
-<text x="104" y="304" class="m" font-size="14" fill="#d1d5db">/stack/uni</text>
-<g transform="translate(270,285)"><rect width="41.599999999999994" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="104" y="304" class="m" font-size="14" fill="#d1d5db">/stack/langs</text>
+<g transform="translate(270,285)"><rect width="92.0" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="46.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">JavaScript</text></g>
+<g transform="translate(370.0,285)"><rect width="92.0" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="46.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">TypeScript</text></g>
+<g transform="translate(470.0,285)"><rect width="41.599999999999994" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
 <text x="20.799999999999997" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">C++</text></g>
-<g transform="translate(319.6,285)"><rect width="48.8" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<g transform="translate(519.6,285)"><rect width="48.8" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
 <text x="24.4" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">Java</text></g>
-<g transform="translate(376.40000000000003,285)"><rect width="41.599999999999994" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<g transform="translate(576.4,285)"><rect width="41.599999999999994" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
 <text x="20.799999999999997" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">SQL</text></g>
-<g transform="translate(426.0,285)"><rect width="63.199999999999996" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<g transform="translate(626.0,285)"><rect width="63.199999999999996" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
 <text x="31.599999999999998" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">Python</text></g>
-<g transform="translate(497.2,285)"><rect width="34.4" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<g transform="translate(697.2,285)"><rect width="34.4" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
 <text x="17.2" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#9ca3af">C#</text></g>
 </g>
 <g class="in" style="animation-delay:0.75s">
@@ -137,8 +143,6 @@
 <text x="31.599999999999998" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#fbbf24">Docker</text></g>
 <g transform="translate(554.8,337)"><rect width="113.6" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
 <text x="56.8" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#fbbf24">system design</text></g>
-<g transform="translate(676.4,337)"><rect width="41.599999999999994" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
-<text x="20.799999999999997" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#fbbf24">DSA</text></g>
 <text x="960" y="356" text-anchor="end" class="m" font-size="12" fill="#fbbf24">202 in progress</text>
 </g>
 </svg>
