@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="1239" viewBox="0 0 440 1239" fill="none">
+<style>
+.m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.s{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.in{animation:in .5s ease both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%{r:5;opacity:1}100%{r:14;opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.cursor{animation:blink 1s steps(1) infinite}
+.ring{animation:pulse 1.8s ease-out infinite}
+.flow{stroke-dasharray:6 6;animation:flow .9s linear infinite}
+@media (prefers-reduced-motion:reduce){.in{animation:none;opacity:1}.cursor,.ring,.flow{animation:none}}
+</style>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="am" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1fd2f2"/><stop offset=".45" stop-color="#3b82f6"/><stop offset="1" stop-color="#9333ea"/>
+  </linearGradient>
+  <linearGradient id="amEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7ee8fa"/><stop offset="1" stop-color="#c084fc"/>
+  </linearGradient>
+  <filter id="amGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+  </pattern>
+  
+</defs>
+<clipPath id="card"><rect width="440" height="1239" rx="18"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="440" height="1239" fill="#0b1120"/>
+<rect width="440" height="1239" fill="url(#grid)"/>
+<circle cx="52.8" cy="20" r="160" fill="#14b8a6" opacity=".22" filter="url(#blur)"/>
+<circle cx="404.8" cy="1239" r="180" fill="#7c3aed" opacity=".22" filter="url(#blur)"/>
+</g>
+<rect x=".5" y=".5" width="439" height="1238" rx="18" fill="none" stroke="#2dd4bf" stroke-opacity=".22"/>
+<g transform="translate(26,30)">
+  <rect width="118" height="26" rx="13" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/>
+  <circle class="ring" cx="16" cy="13" r="5" fill="none" stroke="#34d399"/><circle cx="16" cy="13" r="4" fill="#34d399"/>
+  <text x="28" y="18" class="m" font-size="12" font-weight="700" fill="#34d399">PRODUCTION</text>
+</g>
+<text x="414" y="48" text-anchor="end" class="m" font-size="12.5" fill="#6b7280">since nov 2025</text>
+<text x="26" y="106" class="s" font-size="40" font-weight="800" letter-spacing="-1" fill="url(#brandH)">Masr360</text>
+<text x="26" y="132" class="m" font-size="13" fill="#6b7280">m360travel.com</text>
+<text x="26" y="166" class="s" font-size="16" fill="#d1d5db">Egypt, but you play it. Explore</text>
+<text x="26" y="189" class="s" font-size="16" fill="#d1d5db">governorates, places, nights and local</text>
+<text x="26" y="212" class="s" font-size="16" fill="#d1d5db">crafts, then do missions and photo</text>
+<text x="26" y="235" class="s" font-size="16" fill="#d1d5db">challenges to earn credits. I co-founded it</text>
+<text x="26" y="258" class="s" font-size="16" fill="#d1d5db">and built the whole backend.</text>
+<g transform="translate(26,289)"><rect width="324.0" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity=".45"/>
+<text x="162.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12.5" fill="#fbbf24">Top 20 · Huawei Spark Infinity N. Africa</text></g>
+<g transform="translate(26,325)"><rect width="264.0" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="132.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12.5" fill="#2dd4bf">Orange Corners Egypt · graduated</text></g>
+<line x1="26" y1="373" x2="414" y2="373" stroke="#1f2937"/>
+<text x="26" y="405" class="m" font-size="12" letter-spacing="2" fill="#6b7280">WHAT I OWN</text>
+<g class="in" style="animation-delay:0.2s"><text x="26" y="435" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="435" class="m" font-size="14" fill="#d1d5db">the game: missions, photo challenges</text></g>
+<g class="in" style="animation-delay:0.3s"><text x="26" y="462" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="462" class="m" font-size="14" fill="#d1d5db">products, from listing to cart to order</text></g>
+<g class="in" style="animation-delay:0.4s"><text x="26" y="489" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="489" class="m" font-size="14" fill="#d1d5db">places, governorates, how they connect</text></g>
+<g class="in" style="animation-delay:0.5s"><text x="26" y="516" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="516" class="m" font-size="14" fill="#d1d5db">nights, events and restaurants</text></g>
+<g class="in" style="animation-delay:0.6s"><text x="26" y="543" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="543" class="m" font-size="14" fill="#d1d5db">tickets and their pricing</text></g>
+<g class="in" style="animation-delay:0.7s"><text x="26" y="570" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="570" class="m" font-size="14" fill="#d1d5db">reviews and favourites on anything</text></g>
+<g class="in" style="animation-delay:0.8s"><text x="26" y="597" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="597" class="m" font-size="14" fill="#d1d5db">accounts: sign up, verify email, roles</text></g>
+<g class="in" style="animation-delay:0.9s"><text x="26" y="624" class="m" font-size="14" fill="#2dd4bf">▸</text><text x="44" y="624" class="m" font-size="14" fill="#d1d5db">deploying it, keeping it up all night</text></g>
+<line x1="26" y1="661" x2="414" y2="661" stroke="#1f2937"/>
+<text x="26" y="693" class="m" font-size="12" letter-spacing="2" fill="#6b7280">HOW A REQUEST TRAVELS</text>
+<g transform="translate(26,713)"><rect width="196" height="48" rx="10" fill="#111827" stroke="#9ca3af" stroke-opacity=".55"/>
+<text x="12" y="21" class="m" font-size="13.5" font-weight="700" fill="#9ca3af">client</text>
+<text x="12" y="38" class="m" font-size="10.5" fill="#6b7280">web · mobile app</text></g>
+<g transform="translate(26,785)"><rect width="196" height="48" rx="10" fill="#111827" stroke="#22d3ee" stroke-opacity=".55"/>
+<text x="12" y="21" class="m" font-size="13.5" font-weight="700" fill="#22d3ee">nginx :443</text>
+<text x="12" y="38" class="m" font-size="10.5" fill="#6b7280">HTTPS · reverse proxy</text><text x="186" y="20" text-anchor="end" class="m" font-size="10" fill="#5eead4">mine</text></g>
+<g transform="translate(26,857)"><rect width="196" height="48" rx="10" fill="#111827" stroke="#2dd4bf" stroke-opacity=".55"/>
+<text x="12" y="21" class="m" font-size="13.5" font-weight="700" fill="#2dd4bf">express 5 API</text>
+<text x="12" y="38" class="m" font-size="10.5" fill="#6b7280">PM2 · Linux VPS</text><text x="186" y="20" text-anchor="end" class="m" font-size="10" fill="#5eead4">mine</text></g>
+<g transform="translate(26,929)"><rect width="196" height="48" rx="10" fill="#111827" stroke="#34d399" stroke-opacity=".55"/>
+<text x="12" y="21" class="m" font-size="13.5" font-weight="700" fill="#34d399">mongodb atlas</text>
+<text x="12" y="38" class="m" font-size="10.5" fill="#6b7280">IP whitelisted</text><text x="186" y="20" text-anchor="end" class="m" font-size="10" fill="#5eead4">mine</text></g>
+<line class="flow" x1="124.0" y1="761" x2="124.0" y2="785" stroke="#2dd4bf" stroke-width="2"/>
+<line class="flow" x1="124.0" y1="833" x2="124.0" y2="857" stroke="#2dd4bf" stroke-width="2"/>
+<line class="flow" x1="124.0" y1="905" x2="124.0" y2="929" stroke="#2dd4bf" stroke-width="2"/>
+<g transform="translate(252,815)"><rect width="162" height="48" rx="10" fill="#111827" stroke="#a78bfa" stroke-opacity=".55"/>
+<text x="12" y="21" class="m" font-size="13.5" font-weight="700" fill="#a78bfa">cloudinary</text>
+<text x="12" y="38" class="m" font-size="10.5" fill="#6b7280">images</text></g>
+<g transform="translate(252,899)"><rect width="162" height="48" rx="10" fill="#111827" stroke="#a78bfa" stroke-opacity=".55"/>
+<text x="12" y="21" class="m" font-size="13.5" font-weight="700" fill="#a78bfa">brevo</text>
+<text x="12" y="38" class="m" font-size="10.5" fill="#6b7280">OTP + order emails</text></g>
+<path class="flow" d="M222 881 H238 V839 H252" stroke="#a78bfa" stroke-width="2"/>
+<path class="flow" d="M238 881 V923 H252" stroke="#a78bfa" stroke-width="2"/>
+<line x1="26" y1="1007" x2="414" y2="1007" stroke="#1f2937"/>
+<text x="26" y="1039" class="m" font-size="12.5" fill="#6b7280"><tspan fill="#a78bfa">also</tspan>  about.m360travel.com</text>
+<text x="26" y="1067" class="s" font-size="15" fill="#9ca3af">The pre-launch site, built <tspan fill="#5eead4" font-weight="700">AI-directed</tspan>: I</text>
+<text x="26" y="1089" class="s" font-size="15" fill="#9ca3af">wrote the brief, the product logic and every</text>
+<text x="26" y="1111" class="s" font-size="15" fill="#9ca3af">flow, AI agents wrote the frontend, I reviewed</text>
+<text x="26" y="1133" class="s" font-size="15" fill="#9ca3af">every detail. The backend is mine: waitlist,</text>
+<text x="26" y="1155" class="s" font-size="15" fill="#9ca3af">game scoring, live leaderboard, share-to-earn.</text>
+<g transform="translate(26,1185)"><rect width="290.4" height="28" rx="14.0" fill="#34d399" fill-opacity="0.1" stroke="#34d399" stroke-opacity=".45"/>
+<text x="145.2" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="12" fill="#34d399">#1 on Google for "Masr360 pre-launch"</text></g>
+</svg>

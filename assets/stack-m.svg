@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="822" viewBox="0 0 440 822" fill="none">
+<style>
+.m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.s{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.in{animation:in .5s ease both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%{r:5;opacity:1}100%{r:14;opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.cursor{animation:blink 1s steps(1) infinite}
+.ring{animation:pulse 1.8s ease-out infinite}
+.flow{stroke-dasharray:6 6;animation:flow .9s linear infinite}
+@media (prefers-reduced-motion:reduce){.in{animation:none;opacity:1}.cursor,.ring,.flow{animation:none}}
+</style>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="am" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1fd2f2"/><stop offset=".45" stop-color="#3b82f6"/><stop offset="1" stop-color="#9333ea"/>
+  </linearGradient>
+  <linearGradient id="amEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7ee8fa"/><stop offset="1" stop-color="#c084fc"/>
+  </linearGradient>
+  <filter id="amGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+  </pattern>
+  
+</defs>
+<clipPath id="card"><rect width="440" height="822" rx="18"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="440" height="822" fill="#0b1120"/>
+<rect width="440" height="822" fill="url(#grid)"/>
+<circle cx="52.8" cy="20" r="160" fill="#14b8a6" opacity=".22" filter="url(#blur)"/>
+<circle cx="404.8" cy="822" r="180" fill="#7c3aed" opacity=".22" filter="url(#blur)"/>
+</g>
+<rect x=".5" y=".5" width="439" height="821" rx="18" fill="none" stroke="#2dd4bf" stroke-opacity=".22"/>
+<g>
+  <circle cx="28" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="68" cy="26" r="6" fill="#28c840"/>
+  <text x="220.0" y="31" text-anchor="middle" class="m" font-size="13" fill="#6b7280">routes/stack.js</text>
+  <line x1="0" y1="50" x2="440" y2="50" stroke="#1f2937"/>
+</g><g class="in" style="animation-delay:0.15s">
+<rect x="26" y="76" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="52" y="94" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
+<text x="90" y="94" class="m" font-size="15" fill="#d1d5db">/stack/every-day</text>
+<g transform="translate(26,114)"><rect width="74.6" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="37.3" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">Node.js</text></g>
+<g transform="translate(108.6,114)"><rect width="74.6" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="37.3" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">Express</text></g>
+<g transform="translate(191.2,114)"><rect width="74.6" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="37.3" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">MongoDB</text></g>
+<g transform="translate(273.79999999999995,114)"><rect width="82.4" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="41.2" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">Mongoose</text></g>
+<g transform="translate(364.19999999999993,114)"><rect width="43.4" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="21.7" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">JWT</text></g>
+<g transform="translate(26,150)"><rect width="66.8" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="33.4" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">bcrypt</text></g>
+<g transform="translate(100.8,150)"><rect width="152.6" height="28" rx="14.0" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity=".45"/>
+<text x="76.3" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#2dd4bf">express-validator</text></g>
+</g>
+<g class="in" style="animation-delay:0.27s">
+<rect x="26" y="202" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="52" y="220" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
+<text x="90" y="220" class="m" font-size="15" fill="#d1d5db">/stack/ships-it</text>
+<g transform="translate(26,240)"><rect width="90.2" height="28" rx="14.0" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="45.1" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#22d3ee">Linux VPS</text></g>
+<g transform="translate(124.2,240)"><rect width="59.0" height="28" rx="14.0" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="29.5" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#22d3ee">Nginx</text></g>
+<g transform="translate(191.2,240)"><rect width="43.4" height="28" rx="14.0" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="21.7" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#22d3ee">PM2</text></g>
+<g transform="translate(242.6,240)"><rect width="105.8" height="28" rx="14.0" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="52.9" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#22d3ee">DNS + HTTPS</text></g>
+<g transform="translate(26,276)"><rect width="98.0" height="28" rx="14.0" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#22d3ee">Cloudinary</text></g>
+<g transform="translate(132.0,276)"><rect width="98.0" height="28" rx="14.0" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#22d3ee">Nodemailer</text></g>
+</g>
+<g class="in" style="animation-delay:0.39s">
+<rect x="26" y="328" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="52" y="346" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
+<text x="90" y="346" class="m" font-size="15" fill="#d1d5db">/stack/front</text>
+<g transform="translate(26,366)"><rect width="59.0" height="28" rx="14.0" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity=".45"/>
+<text x="29.5" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#a78bfa">React</text></g>
+<g transform="translate(93.0,366)"><rect width="98.0" height="28" rx="14.0" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#a78bfa">TypeScript</text></g>
+<g transform="translate(199.0,366)"><rect width="51.2" height="28" rx="14.0" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity=".45"/>
+<text x="25.6" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#a78bfa">Vite</text></g>
+<g transform="translate(258.2,366)"><rect width="82.4" height="28" rx="14.0" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity=".45"/>
+<text x="41.2" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#a78bfa">Tailwind</text></g>
+<g transform="translate(26,402)"><rect width="121.39999999999999" height="28" rx="14.0" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity=".45"/>
+<text x="60.699999999999996" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#a78bfa">Framer Motion</text></g>
+</g>
+<g class="in" style="animation-delay:0.51s">
+<rect x="26" y="454" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="52" y="472" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
+<text x="90" y="472" class="m" font-size="15" fill="#d1d5db">/stack/ai</text>
+<g transform="translate(26,492)"><rect width="129.2" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="64.6" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#c4b5fd">AI integration</text></g>
+<g transform="translate(163.2,492)"><rect width="82.4" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="41.2" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#c4b5fd">chatbots</text></g>
+<g transform="translate(253.6,492)"><rect width="121.39999999999999" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="60.699999999999996" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#c4b5fd">Vercel AI SDK</text></g>
+<g transform="translate(26,528)"><rect width="98.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#c4b5fd">Claude API</text></g>
+<g transform="translate(132.0,528)"><rect width="98.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#c4b5fd">OpenRouter</text></g>
+<g transform="translate(238.0,528)"><rect width="137.0" height="28" rx="14.0" fill="#c4b5fd" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity=".45"/>
+<text x="68.5" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#c4b5fd">AI-directed dev</text></g>
+</g>
+<g class="in" style="animation-delay:0.63s">
+<rect x="26" y="580" width="52" height="26" rx="6" fill="#2dd4bf" fill-opacity=".12" stroke="#2dd4bf" stroke-opacity=".5"/><text x="52" y="598" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#2dd4bf">GET</text>
+<text x="90" y="598" class="m" font-size="15" fill="#d1d5db">/stack/langs</text>
+<g transform="translate(26,618)"><rect width="98.0" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">JavaScript</text></g>
+<g transform="translate(132.0,618)"><rect width="98.0" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="49.0" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">TypeScript</text></g>
+<g transform="translate(238.0,618)"><rect width="43.4" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="21.7" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">C++</text></g>
+<g transform="translate(289.4,618)"><rect width="51.2" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="25.6" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">Java</text></g>
+<g transform="translate(348.59999999999997,618)"><rect width="43.4" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="21.7" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">SQL</text></g>
+<g transform="translate(26,654)"><rect width="66.8" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="33.4" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">Python</text></g>
+<g transform="translate(100.8,654)"><rect width="35.6" height="28" rx="14.0" fill="#9ca3af" fill-opacity="0.08" stroke="#9ca3af" stroke-opacity=".45"/>
+<text x="17.8" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#9ca3af">C#</text></g>
+</g>
+<g class="in" style="animation-delay:0.75s">
+<rect x="26" y="706" width="52" height="26" rx="6" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/><text x="52" y="724" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#fbbf24">POST</text>
+<text x="90" y="724" class="m" font-size="15" fill="#d1d5db">/stack/learning</text>
+<text x="414" y="724" text-anchor="end" class="m" font-size="11.5" fill="#fbbf24">202</text>
+<g transform="translate(26,744)"><rect width="74.6" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
+<text x="37.3" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#fbbf24">testing</text></g>
+<g transform="translate(108.6,744)"><rect width="59.0" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
+<text x="29.5" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#fbbf24">Redis</text></g>
+<g transform="translate(175.6,744)"><rect width="66.8" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
+<text x="33.4" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#fbbf24">queues</text></g>
+<g transform="translate(250.39999999999998,744)"><rect width="66.8" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
+<text x="33.4" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#fbbf24">Docker</text></g>
+<g transform="translate(26,780)"><rect width="121.39999999999999" height="28" rx="14.0" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity=".45"/>
+<text x="60.699999999999996" y="14.5" dominant-baseline="central" text-anchor="middle" class="m" font-size="13" fill="#fbbf24">system design</text></g>
+</g>
+</svg>

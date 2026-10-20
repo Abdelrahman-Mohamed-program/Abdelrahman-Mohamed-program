@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="853" viewBox="0 0 440 853" fill="none">
+<style>
+.m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.s{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.in{animation:in .5s ease both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%{r:5;opacity:1}100%{r:14;opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.cursor{animation:blink 1s steps(1) infinite}
+.ring{animation:pulse 1.8s ease-out infinite}
+.flow{stroke-dasharray:6 6;animation:flow .9s linear infinite}
+@media (prefers-reduced-motion:reduce){.in{animation:none;opacity:1}.cursor,.ring,.flow{animation:none}}
+</style>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="am" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1fd2f2"/><stop offset=".45" stop-color="#3b82f6"/><stop offset="1" stop-color="#9333ea"/>
+  </linearGradient>
+  <linearGradient id="amEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7ee8fa"/><stop offset="1" stop-color="#c084fc"/>
+  </linearGradient>
+  <filter id="amGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+  </pattern>
+  
+</defs>
+<clipPath id="card"><rect width="440" height="853" rx="18"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="440" height="853" fill="#0b1120"/>
+<rect width="440" height="853" fill="url(#grid)"/>
+<circle cx="52.8" cy="20" r="160" fill="#14b8a6" opacity=".22" filter="url(#blur)"/>
+<circle cx="404.8" cy="853" r="180" fill="#7c3aed" opacity=".22" filter="url(#blur)"/>
+</g>
+<rect x=".5" y=".5" width="439" height="852" rx="18" fill="none" stroke="#2dd4bf" stroke-opacity=".22"/>
+<g>
+  <circle cx="28" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="68" cy="26" r="6" fill="#28c840"/>
+  <text x="220.0" y="31" text-anchor="middle" class="m" font-size="13" fill="#6b7280">git log --reverse</text>
+  <line x1="0" y1="50" x2="440" y2="50" stroke="#1f2937"/>
+</g><line x1="34" y1="86" x2="34" y2="798" stroke="#1f2937" stroke-width="2"/>
+<g class="in" style="animation-delay:0.15s">
+<circle cx="34" cy="81" r="5" fill="#0b1120" stroke="#9ca3af" stroke-width="2"/>
+<text x="56" y="86" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">a1f3c2e</tspan>  <tspan fill="#6b7280">2023</tspan></text>
+<text x="56" y="109" class="m" font-size="14" xml:space="preserve"><tspan fill="#9ca3af">init:</tspan><tspan fill="#d1d5db"> CS50, then C++ and Java at uni</tspan></text>
+</g>
+<g class="in" style="animation-delay:0.27s">
+<circle cx="34" cy="142" r="5" fill="#0b1120" stroke="#2dd4bf" stroke-width="2"/>
+<text x="56" y="147" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">b7e9105</tspan>  <tspan fill="#6b7280">nov 2024</tspan></text>
+<text x="56" y="170" class="m" font-size="14" xml:space="preserve"><tspan fill="#2dd4bf">feat:</tspan><tspan fill="#d1d5db"> DEPI React track. finished with</tspan></text>
+<text x="56" y="191" class="m" font-size="14" fill="#d1d5db">the certificate</text>
+</g>
+<g class="in" style="animation-delay:0.39s">
+<circle cx="34" cy="224" r="5" fill="#0b1120" stroke="#fbbf24" stroke-width="2"/>
+<text x="56" y="229" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">c2d4a81</tspan>  <tspan fill="#6b7280">early 2025</tspan></text>
+<text x="56" y="252" class="m" font-size="14" xml:space="preserve"><tspan fill="#fbbf24">fix:</tspan><tspan fill="#d1d5db"> built a login page, asked how auth</tspan></text>
+<text x="56" y="273" class="m" font-size="14" fill="#d1d5db">works. switched to backend</text>
+</g>
+<g class="in" style="animation-delay:0.51s">
+<circle cx="34" cy="306" r="5" fill="#0b1120" stroke="#2dd4bf" stroke-width="2"/>
+<text x="56" y="311" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">d9a0f14</tspan>  <tspan fill="#6b7280">aug 2025</tspan></text>
+<text x="56" y="334" class="m" font-size="14" xml:space="preserve"><tspan fill="#2dd4bf">feat:</tspan><tspan fill="#d1d5db"> Tavelsta. first backend I owned,</tspan></text>
+<text x="56" y="355" class="m" font-size="14" fill="#d1d5db">led a team of 7</text>
+</g>
+<g class="in" style="animation-delay:0.63s">
+<circle cx="34" cy="388" r="5" fill="#0b1120" stroke="#22d3ee" stroke-width="2"/>
+<text x="56" y="393" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">e3c7b20</tspan>  <tspan fill="#6b7280">oct 2025</tspan></text>
+<text x="56" y="416" class="m" font-size="14" xml:space="preserve"><tspan fill="#22d3ee">chore:</tspan><tspan fill="#d1d5db"> web vice head at iClub ASU,</tspan></text>
+<text x="56" y="437" class="m" font-size="14" fill="#d1d5db">mentored 40+ students</text>
+</g>
+<g class="in" style="animation-delay:0.75s">
+<circle cx="34" cy="470" r="5" fill="#0b1120" stroke="#2dd4bf" stroke-width="2"/>
+<text x="56" y="475" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">e41b77d</tspan>  <tspan fill="#6b7280">nov 2025</tspan></text>
+<text x="56" y="498" class="m" font-size="14" xml:space="preserve"><tspan fill="#2dd4bf">feat:</tspan><tspan fill="#d1d5db"> co-founded Masr360, started the</tspan></text>
+<text x="56" y="519" class="m" font-size="14" fill="#d1d5db">API from zero</text>
+</g>
+<g class="in" style="animation-delay:0.87s">
+<circle cx="34" cy="552" r="5" fill="#0b1120" stroke="#34d399" stroke-width="2"/>
+<text x="56" y="557" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">f0c3d29</tspan>  <tspan fill="#6b7280">late 2025</tspan></text>
+<text x="56" y="580" class="m" font-size="14" xml:space="preserve"><tspan fill="#34d399">deploy:</tspan><tspan fill="#d1d5db"> Top 20 Huawei Spark Infinity.</tspan></text>
+<text x="56" y="601" class="m" font-size="14" fill="#d1d5db">one week, first prod deploy</text>
+</g>
+<g class="in" style="animation-delay:0.99s">
+<circle cx="34" cy="634" r="5" fill="#0b1120" stroke="#2dd4bf" stroke-width="2"/>
+<text x="56" y="639" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">a7b2e90</tspan>  <tspan fill="#6b7280">jun 2026</tspan></text>
+<text x="56" y="662" class="m" font-size="14" xml:space="preserve"><tspan fill="#2dd4bf">feat:</tspan><tspan fill="#d1d5db"> Masr360 pre-launch site, AI-</tspan></text>
+<text x="56" y="683" class="m" font-size="14" fill="#d1d5db">directed build</text>
+</g>
+<g class="in" style="animation-delay:1.11s">
+<circle cx="34" cy="716" r="5" fill="#0b1120" stroke="#2dd4bf" stroke-width="2"/>
+<text x="56" y="721" class="m" font-size="13" xml:space="preserve"><tspan fill="#fbbf24" fill-opacity=".85">b81d4c6</tspan>  <tspan fill="#6b7280">sep 2026</tspan></text>
+<text x="56" y="744" class="m" font-size="14" xml:space="preserve"><tspan fill="#2dd4bf">feat:</tspan><tspan fill="#d1d5db"> LLM tool calling + streaming with</tspan></text>
+<text x="56" y="765" class="m" font-size="14" fill="#d1d5db">the AI SDK</text>
+</g>
+<g class="in" style="animation-delay:1.3s"><circle cx="34" cy="798" r="6" fill="url(#am)"/><text x="56" y="803" class="m" font-size="13" fill="#c4b5fd">HEAD -&gt; next</text><text x="56" y="826" class="m" font-size="14" fill="#d1d5db">launching Masr360 to the public</text><rect class="cursor" x="321.40000000000003" y="813" width="8" height="16" fill="#2dd4bf"/></g>
+</svg>

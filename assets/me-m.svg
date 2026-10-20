@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="660" viewBox="0 0 440 660" fill="none">
+<style>
+.m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.s{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.in{animation:in .5s ease both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%{r:5;opacity:1}100%{r:14;opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.cursor{animation:blink 1s steps(1) infinite}
+.ring{animation:pulse 1.8s ease-out infinite}
+.flow{stroke-dasharray:6 6;animation:flow .9s linear infinite}
+@media (prefers-reduced-motion:reduce){.in{animation:none;opacity:1}.cursor,.ring,.flow{animation:none}}
+</style>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="am" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1fd2f2"/><stop offset=".45" stop-color="#3b82f6"/><stop offset="1" stop-color="#9333ea"/>
+  </linearGradient>
+  <linearGradient id="amEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7ee8fa"/><stop offset="1" stop-color="#c084fc"/>
+  </linearGradient>
+  <filter id="amGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+  </pattern>
+  
+</defs>
+<clipPath id="card"><rect width="440" height="660" rx="18"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="440" height="660" fill="#0b1120"/>
+<rect width="440" height="660" fill="url(#grid)"/>
+<circle cx="52.8" cy="20" r="160" fill="#14b8a6" opacity=".22" filter="url(#blur)"/>
+<circle cx="404.8" cy="660" r="180" fill="#7c3aed" opacity=".22" filter="url(#blur)"/>
+</g>
+<rect x=".5" y=".5" width="439" height="659" rx="18" fill="none" stroke="#2dd4bf" stroke-opacity=".22"/>
+<g>
+  <circle cx="28" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="68" cy="26" r="6" fill="#28c840"/>
+  <text x="220.0" y="31" text-anchor="middle" class="m" font-size="13" fill="#6b7280">request.http</text>
+  <line x1="0" y1="50" x2="440" y2="50" stroke="#1f2937"/>
+</g><g transform="translate(26,76)">
+  <rect width="52" height="26" rx="6" fill="#14b8a6" fill-opacity=".15" stroke="#2dd4bf" stroke-opacity=".5"/>
+  <text x="26" y="18" text-anchor="middle" class="m" font-size="13" font-weight="700" fill="#2dd4bf">GET</text>
+  <text x="64" y="18" class="m" font-size="15" fill="#d1d5db">/api/v1/me</text>
+</g>
+<text x="414" y="94" text-anchor="end" class="m" font-size="13" fill="#34d399">200 OK · 38ms</text>
+<line x1="26" y1="118" x2="414" y2="118" stroke="#1f2937" stroke-dasharray="4 4"/>
+<text x="26" y="150" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.10s"><tspan fill="#9ca3af">{</tspan></text>
+<text x="44" y="175" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.16s"><tspan fill="#c4b5fd">"name"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"Abdelrahman Mohamed"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="44" y="200" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.22s"><tspan fill="#c4b5fd">"aka"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"Boody"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="44" y="225" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.28s"><tspan fill="#c4b5fd">"builds"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#9ca3af">[</tspan></text>
+<text x="62" y="250" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.34s"><tspan fill="#5eead4">"REST APIs"</tspan><tspan fill="#9ca3af">, </tspan><tspan fill="#5eead4">"data models"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="62" y="275" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.40s"><tspan fill="#5eead4">"auth"</tspan><tspan fill="#9ca3af">, </tspan><tspan fill="#5eead4">"the servers they run on"</tspan></text>
+<text x="44" y="300" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.46s"><tspan fill="#9ca3af">],</tspan></text>
+<text x="44" y="325" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.52s"><tspan fill="#c4b5fd">"story"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"a login page made me ask how</tspan></text>
+<text x="62" y="350" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.58s"><tspan fill="#5eead4">auth really works. been backend</tspan></text>
+<text x="62" y="375" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.64s"><tspan fill="#5eead4">since"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="44" y="400" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.70s"><tspan fill="#c4b5fd">"how_i_learn"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"read the docs, break</tspan></text>
+<text x="62" y="425" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.76s"><tspan fill="#5eead4">stuff, get stuck, figure it out,</tspan></text>
+<text x="62" y="450" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.82s"><tspan fill="#5eead4">ship it"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="44" y="475" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.88s"><tspan fill="#c4b5fd">"rules"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#9ca3af">[</tspan></text>
+<text x="62" y="500" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:0.94s"><tspan fill="#5eead4">"understand it before you copy it"</tspan><tspan fill="#9ca3af">,</tspan></text>
+<text x="62" y="525" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:1.00s"><tspan fill="#5eead4">"no zero days"</tspan></text>
+<text x="44" y="550" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:1.06s"><tspan fill="#9ca3af">],</tspan></text>
+<text x="44" y="575" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:1.12s"><tspan fill="#c4b5fd">"open_to"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#5eead4">"junior backend /</tspan></text>
+<text x="62" y="600" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:1.18s"><tspan fill="#5eead4">full-stack roles"</tspan></text>
+<text x="26" y="625" class="m in" font-size="14.5" xml:space="preserve" style="animation-delay:1.24s"><tspan fill="#9ca3af">}</tspan></text>
+</svg>
